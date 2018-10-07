@@ -1,0 +1,6 @@
+eth.acccounts
+eth.accounts
+eth.getBalance(eth.accounts[0])
+eth.sendTransaction({from: '0xb0ebe17ef0e96b5c525709c0a1ede347c66bd391', to: '0xf280facfd60d61f6fd3f88c9dee4fb90d0e11dfc', value: web3.toWei(1, "ether")})01
+eth.sendTransaction({from: '0xa58d24508824e8acad83cd0de7124a7e8e6b134e', to: '0x627306090abaB3A6e1400e9345bC60c78a8BEf57', value: web3.toWei(1, "ether")})
+eth.accounts

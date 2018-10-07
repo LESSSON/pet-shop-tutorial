@@ -1,0 +1,40 @@
+INFO [10-01|19:03:37.333] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [10-01|19:03:38.910] Using developer account                  address=0xa58D24508824E8aCad83CD0de7124a7E8e6b134E
+INFO [10-01|19:03:38.913] Starting peer-to-peer node               instance=Geth/v1.8.14-stable/darwin-amd64/go1.10.3
+INFO [10-01|19:03:38.913] Allocated cache and file handles         database=/Users/leson/pet-shop-tutorial/testNet/geth/chaindata cache=768 handles=1024
+INFO [10-01|19:03:38.928] Writing custom genesis block 
+INFO [10-01|19:03:38.930] Persisted trie from memory database      nodes=12 size=1.79kB time=161.752µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [10-01|19:03:38.931] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: clique}"
+INFO [10-01|19:03:38.932] Initialising Ethereum protocol           versions="[63 62]" network=1337
+INFO [10-01|19:03:38.932] Loaded most recent local header          number=0 hash=1ac348…769559 td=1
+INFO [10-01|19:03:38.932] Loaded most recent local full block      number=0 hash=1ac348…769559 td=1
+INFO [10-01|19:03:38.932] Loaded most recent local fast block      number=0 hash=1ac348…769559 td=1
+INFO [10-01|19:03:38.933] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [10-01|19:03:38.934] Starting P2P networking 
+INFO [10-01|19:03:38.934] Stored checkpoint snapshot to disk       number=0 hash=1ac348…769559
+INFO [10-01|19:03:38.935] RLPx listener up                         self="enode://b7e85f77fafd8abfccbbfc9b7b7a89d55eb611b17fc200ecf2b5307a4487a9bb3a339be19b483ef00858abe8e228b404f6eb647572569c62c814c869ea10f3f0@[::]:51914?discport=0"
+INFO [10-01|19:03:38.935] started whisper v.6.0 
+INFO [10-01|19:03:38.938] IPC endpoint opened                      url=/Users/leson/pet-shop-tutorial/testNet/geth.ipc
+INFO [10-01|19:03:38.939] Transaction pool price threshold updated price=18000000000
+INFO [10-01|19:03:38.939] Etherbase automatically configured       address=0xa58D24508824E8aCad83CD0de7124a7E8e6b134E
+INFO [10-01|19:03:38.940] Commit new mining work                   number=1 uncles=0 txs=0 gas=0 fees=0 elapsed=701.511µs
+WARN [10-01|19:03:38.940] Block sealing failed                     err="waiting for transactions"
+INFO [10-01|19:03:41.099] Mapped network port                      proto=tcp extport=51914 intport=51914 interface="UPNP IGDv1-IP1"
+INFO [10-01|19:08:10.036] Setting new local account                address=0xa58D24508824E8aCad83CD0de7124a7E8e6b134E
+INFO [10-01|19:08:10.036] Submitted transaction                    fullhash=0x8016f65f7e6fd676a0aa70d609e45533b6bc4a241d541e800b6e483e077b2b9e recipient=0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+INFO [10-01|19:08:10.037] Commit new mining work                   number=1 uncles=0 txs=0 gas=0 fees=0 elapsed=110.243µs
+WARN [10-01|19:08:10.037] Block sealing failed                     err="waiting for transactions"
+INFO [10-01|19:08:10.039] Commit new mining work                   number=1 uncles=0 txs=1 gas=21000 fees=2.1e-14 elapsed=2.127ms
+INFO [10-01|19:08:10.039] Successfully sealed new block            number=1 hash=c0d234…9b401e elapsed=361.546µs
+INFO [10-01|19:08:10.040] 🔨 mined potential block                  number=1 hash=c0d234…9b401e
+INFO [10-01|19:08:10.041] Commit new mining work                   number=2 uncles=0 txs=0 gas=0     fees=0       elapsed=460.729µs
+WARN [10-01|19:08:10.041] Block sealing failed                     err="waiting for transactions"
+INFO [10-01|19:31:21.753] IPC endpoint closed                      endpoint=/Users/leson/pet-shop-tutorial/testNet/geth.ipc
+INFO [10-01|19:31:21.754] Writing cached state to disk             block=1 hash=c0d234…9b401e root=f6b755…7e6eee
+INFO [10-01|19:31:21.754] Persisted trie from memory database      nodes=4  size=741.00B time=386.754µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [10-01|19:31:21.755] Blockchain manager stopped 
+INFO [10-01|19:31:21.755] Stopping Ethereum protocol 
+INFO [10-01|19:31:21.755] Ethereum protocol stopped 
+INFO [10-01|19:31:21.755] Transaction pool stopped 
+INFO [10-01|19:31:21.756] Database closed                          database=/Users/leson/pet-shop-tutorial/testNet/geth/chaindata
+INFO [10-01|19:31:21.756] whisper stopped 
